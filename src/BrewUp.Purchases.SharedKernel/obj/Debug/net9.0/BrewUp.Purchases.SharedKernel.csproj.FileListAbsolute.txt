@@ -1,0 +1,13 @@
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\bin\Debug\net9.0\BrewUp.Purchases.SharedKernel.deps.json
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\bin\Debug\net9.0\BrewUp.Purchases.SharedKernel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\bin\Debug\net9.0\BrewUp.Purchases.SharedKernel.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.csproj.AssemblyReference.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.AssemblyInfoInputs.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.AssemblyInfo.cs
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.sourcelink.json
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\refint\BrewUp.Purchases.SharedKernel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\BrewUp.Purchases.SharedKernel.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.SharedKernel\obj\Debug\net9.0\ref\BrewUp.Purchases.SharedKernel.dll

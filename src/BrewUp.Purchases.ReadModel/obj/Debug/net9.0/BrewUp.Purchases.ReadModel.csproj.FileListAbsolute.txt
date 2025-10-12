@@ -1,0 +1,12 @@
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\bin\Debug\net9.0\BrewUp.Purchases.ReadModel.deps.json
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\bin\Debug\net9.0\BrewUp.Purchases.ReadModel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\bin\Debug\net9.0\BrewUp.Purchases.ReadModel.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.AssemblyInfoInputs.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.AssemblyInfo.cs
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.csproj.CoreCompileInputs.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.sourcelink.json
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\refint\BrewUp.Purchases.ReadModel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\BrewUp.Purchases.ReadModel.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.ReadModel\obj\Debug\net9.0\ref\BrewUp.Purchases.ReadModel.dll

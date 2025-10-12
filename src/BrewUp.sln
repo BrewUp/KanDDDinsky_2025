@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90 Presentation", "90 Presentation", "{E797B03C-3415-42C4-B890-49B8B95569CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUp.Purchases.Rest", "BrewUp.Purchases.Rest\BrewUp.Purchases.Rest.csproj", "{3A564403-76CF-416C-B230-89AE4E845A84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Domain", "10 Domain", "{7529BC15-025A-4DAA-9EC4-E62F2C9341F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Shared", "30 Shared", "{D42BA0B4-6A8C-40EC-A05A-7015BD729F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUp.Purchases.Domain", "BrewUp.Purchases.Domain\BrewUp.Purchases.Domain.csproj", "{E5755F4E-EF72-4D7E-9BD9-A9A2FB161D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUp.Purchases.SharedKernel", "BrewUp.Purchases.SharedKernel\BrewUp.Purchases.SharedKernel.csproj", "{CECECFC6-6B74-4CF2-8794-9F8D95D8FDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50 ReadModel", "50 ReadModel", "{4680C2AB-6775-4C1F-8106-934852083CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUp.Purchases.ReadModel", "BrewUp.Purchases.ReadModel\BrewUp.Purchases.ReadModel.csproj", "{CF084348-C3BC-46D2-BE86-02699279D6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9FE7E834-139F-43ED-BEC1-9C8D3CC75B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrewUp.Purchases.Domain.Tests", "BrewUp.Purchases.Domain.Tests\BrewUp.Purchases.Domain.Tests.csproj", "{657343B8-0BD5-42C6-AA33-2CC5E8CF58B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A564403-76CF-416C-B230-89AE4E845A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A564403-76CF-416C-B230-89AE4E845A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A564403-76CF-416C-B230-89AE4E845A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A564403-76CF-416C-B230-89AE4E845A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5755F4E-EF72-4D7E-9BD9-A9A2FB161D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5755F4E-EF72-4D7E-9BD9-A9A2FB161D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5755F4E-EF72-4D7E-9BD9-A9A2FB161D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5755F4E-EF72-4D7E-9BD9-A9A2FB161D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECECFC6-6B74-4CF2-8794-9F8D95D8FDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECECFC6-6B74-4CF2-8794-9F8D95D8FDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECECFC6-6B74-4CF2-8794-9F8D95D8FDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECECFC6-6B74-4CF2-8794-9F8D95D8FDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF084348-C3BC-46D2-BE86-02699279D6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF084348-C3BC-46D2-BE86-02699279D6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF084348-C3BC-46D2-BE86-02699279D6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF084348-C3BC-46D2-BE86-02699279D6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657343B8-0BD5-42C6-AA33-2CC5E8CF58B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657343B8-0BD5-42C6-AA33-2CC5E8CF58B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657343B8-0BD5-42C6-AA33-2CC5E8CF58B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657343B8-0BD5-42C6-AA33-2CC5E8CF58B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A564403-76CF-416C-B230-89AE4E845A84} = {E797B03C-3415-42C4-B890-49B8B95569CE}
+		{E5755F4E-EF72-4D7E-9BD9-A9A2FB161D62} = {7529BC15-025A-4DAA-9EC4-E62F2C9341F0}
+		{CECECFC6-6B74-4CF2-8794-9F8D95D8FDC8} = {D42BA0B4-6A8C-40EC-A05A-7015BD729F67}
+		{CF084348-C3BC-46D2-BE86-02699279D6AF} = {4680C2AB-6775-4C1F-8106-934852083CF9}
+		{9FE7E834-139F-43ED-BEC1-9C8D3CC75B08} = {7529BC15-025A-4DAA-9EC4-E62F2C9341F0}
+		{657343B8-0BD5-42C6-AA33-2CC5E8CF58B7} = {9FE7E834-139F-43ED-BEC1-9C8D3CC75B08}
+	EndGlobalSection
+EndGlobal

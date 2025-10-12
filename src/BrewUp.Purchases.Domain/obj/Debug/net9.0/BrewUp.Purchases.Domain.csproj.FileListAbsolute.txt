@@ -1,0 +1,16 @@
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\bin\Debug\net9.0\BrewUp.Purchases.Domain.deps.json
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\bin\Debug\net9.0\BrewUp.Purchases.Domain.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\bin\Debug\net9.0\BrewUp.Purchases.Domain.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.csproj.AssemblyReference.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.AssemblyInfoInputs.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.AssemblyInfo.cs
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.csproj.CoreCompileInputs.cache
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.sourcelink.json
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\refint\BrewUp.Purchases.Domain.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.Purchases.Domain.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\ref\BrewUp.Purchases.Domain.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\bin\Debug\net9.0\BrewUp.Purchases.SharedKernel.dll
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\bin\Debug\net9.0\BrewUp.Purchases.SharedKernel.pdb
+C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\obj\Debug\net9.0\BrewUp.P.F6FC911A.Up2Date
