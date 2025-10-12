@@ -10,130 +10,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebae4ba3-410a-410e-9867-6b7fc73f1c00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/BrewUp.Purchases.Domain.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderCreatePurchaseOrderSuccessful.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/BrewUp.Domain.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/BrewUp.Domain.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/BrewUp.Domain.Tests.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Domain.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Domain.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Domain.Tests.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Domain.Tests.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Domain.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/BrewUp.Purchases.Domain.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/BrewUp.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/BrewUp.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/BrewUp.Domain.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Domain.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Domain.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/BrewUp.Purchases.ReadModel.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/BrewUp.ReadModel.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/BrewUp.ReadModel.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/BrewUp.ReadModel.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/Debug/net9.0/BrewUp.ReadModel.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/Debug/net9.0/BrewUp.ReadModel.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/Debug/net9.0/BrewUp.ReadModel.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/Debug/net9.0/BrewUp.ReadModel.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/Debug/net9.0/BrewUp.ReadModel.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.ReadModel/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/BrewUp.Purchases.Rest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/BrewUp.Rest.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Helpers/HealthCheckExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Middleware/RequestTrackingMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/ChacheModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/CorsModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/IModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/ModuleExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/OpenApiModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/OpenTelemetryModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Modules/StatusModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/bin/Debug/net9.0/BrewUp.Purchases.Rest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/bin/Debug/net9.0/BrewUp.Purchases.Rest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/BrewUp.Rest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/BrewUp.Rest.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/BrewUp.Rest.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/BrewUp.Rest.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/BrewUp.Rest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/BrewUp.Rest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/BrewUp.Rest.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/BrewUp.Rest.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/Debug/net9.0/BrewUp.Rest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Rest/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/BrewUp.Purchases.SharedKernel.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/BeerId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/PurchaseOrderId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/SupplierId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/BeerName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/Order.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/OrderLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/Price.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/Quantity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Enums/Enumeration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Enums/Status.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/ChangePurchaseOrderStatusToComplete.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/CreatePurchaseOrder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/PurchaseOrderStatusChangedToComplete.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/BeersReceived.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/PurchaseOrderCreated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/PurchaseOrderStatusChangedToComplete.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/BrewUp.SharedKernel.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/BrewUp.SharedKernel.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/BrewUp.SharedKernel.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.SharedKernel.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.SharedKernel.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.SharedKernel.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.SharedKernel.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.SharedKernel.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BrewUp.sln" afterDir="false" />
-    </list>
+    <list default="true" id="ebae4ba3-410a-410e-9867-6b7fc73f1c00" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,6 +40,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/ChangePurchaseOrderStatusToCompleteHandlerAsync.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Rest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/BeerId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/PurchaseOrderId.cs" root0="FORCE_HIGHLIGHTING" />
@@ -276,7 +154,7 @@
       <workItem from="1760028768956" duration="1534000" />
       <workItem from="1760031596619" duration="588000" />
       <workItem from="1760032244013" duration="2797000" />
-      <workItem from="1760080676034" duration="3317000" />
+      <workItem from="1760080676034" duration="3652000" />
     </task>
     <servers />
   </component>

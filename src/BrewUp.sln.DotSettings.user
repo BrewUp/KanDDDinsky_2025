@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ee7fc232_002D9a95_002D453b_002D8604_002D4537e71d510d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="OrderCreatePurchaseOrderSuccessful" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.OrderCreatePurchaseOrderSuccessful&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.OrderUpdatePurchaseOrderStatusToCompleteChangeStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
