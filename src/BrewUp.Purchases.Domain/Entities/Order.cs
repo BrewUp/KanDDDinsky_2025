@@ -47,34 +47,4 @@ public class Order : AggregateRoot
 		//_date = @event.Date;
 		_lines = @event.Lines.ToEntities();
 	}
-	
-	internal void SendOrderToSupplier(OrderDispatchDate dispatchDate)
-	{
-		if (!_status.Equals(Status.Created))
-			throw new InvalidOperationException(
-				$"Cannot send order to supplier when status is {_status}");
-
-		RaiseEvent(new PurchaseOrderSentToSupplier((PurchaseOrderId)Id, dispatchDate));
-	}
-
-	private void Apply(PurchaseOrderSentToSupplier @event)
-	{
-		_status = Status.Sent;
-	}
-
-	internal void Received()
-	{
-		if (!_status.Equals(Status.Complete))
-			RaiseEvent(new PurchaseOrderStatusChangedToComplete((PurchaseOrderId)Id, _lines.ToDtos()));
-	}
-
-	private void Apply(PurchaseOrderStatusChangedToComplete @event)
-	{
-		_status = Status.Complete;
-	}
-
-	internal void LoadBeerToStock()
-	{
-		RaiseEvent(new BeerLoadedInStock((PurchaseOrderId)Id, _lines.ToDtos()));
-	}
 }
