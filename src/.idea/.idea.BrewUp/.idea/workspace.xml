@@ -11,7 +11,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebae4ba3-410a-410e-9867-6b7fc73f1c00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/BeerLoadedInStockSuccessful.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/PurchaseOrderSentToSupplierSuccessful.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/LoadBeerInStockHandlerAsync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/SendPurchaseOrderToSupplierHandlerAsync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/OrderCreateDate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/OrderDispathDate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/LoadBeerInStock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/ReceivePurchaseOrderFromSupplier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/SendPurchaseOrderToSupplier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/BeerLoadedInStock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/PurchaseOrderSentToSupplier.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BrewUp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/BrewUp.Purchases.Domain.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/BrewUp.Purchases.Domain.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderCreatePurchaseOrderSuccessful.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderCreatePurchaseOrderSuccessful.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderUpdatePurchaseOrderStatusToCompleteChangeStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/OrderUpdatePurchaseOrderStatusToCompleteChangeStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/BrewUp.Purchases.Domain.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/ref/BrewUp.Purchases.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/ref/BrewUp.Purchases.Domain.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/refint/BrewUp.Purchases.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/obj/Debug/net9.0/refint/BrewUp.Purchases.Domain.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/ChangePurchaseOrderStatusToCompleteHandlerAsync.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/ReceivePurchaseOrderFromSupplierHandlerAsync.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/Entities/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/Entities/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/BrewUp.Purchases.Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/ref/BrewUp.Purchases.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/ref/BrewUp.Purchases.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/refint/BrewUp.Purchases.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.Domain/obj/Debug/net9.0/refint/BrewUp.Purchases.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/BrewUp.Purchases.SharedKernel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/BrewUp.Purchases.SharedKernel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/ChangePurchaseOrderStatusToComplete.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/CreatePurchaseOrder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/CreatePurchaseOrder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/PurchaseOrderCreated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/PurchaseOrderCreated.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/bin/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/BrewUp.Purchases.SharedKernel.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/ref/BrewUp.Purchases.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/ref/BrewUp.Purchases.SharedKernel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/refint/BrewUp.Purchases.SharedKernel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/obj/Debug/net9.0/refint/BrewUp.Purchases.SharedKernel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BrewUp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/BrewUp.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +102,28 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/ChangePurchaseOrderStatusToCompleteHandlerAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/BeerLoadedInStockSuccessful.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain.Tests/Entities/PurchaseOrderSentToSupplierSuccessful.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/LoadBeerInStockHandlerAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/ReceivePurchaseOrderFromSupplierHandlerAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Domain/CommandHandlers/SendPurchaseOrderToSupplierHandlerAsync.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.Rest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/BeerId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/OrderCreateDate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/OrderDispathDate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/PurchaseOrderId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/CustomTypes/SupplierId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/BeerName.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Dtos/OrderLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/LoadBeerInStock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/ReceivePurchaseOrderFromSupplier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Commands/SendPurchaseOrderToSupplier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/BeerLoadedInStock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BrewUp.Purchases.SharedKernel/Messages/Events/PurchaseOrderSentToSupplier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/219cd357985444e7b34cb8c66c78335b3a00/12/7c6e1249/CommandSpecification`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/14295caa5335b4c0437184fea98d619bcae7fec2b39e6986204bb1c585a352/Guid.Windows.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -157,13 +231,14 @@
       <workItem from="1760028768956" duration="1534000" />
       <workItem from="1760031596619" duration="588000" />
       <workItem from="1760032244013" duration="2797000" />
-      <workItem from="1760080676034" duration="4621000" />
+      <workItem from="1760080676034" duration="7624000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -185,13 +260,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BrewUp.Purchases.Domain/Entities/Order.cs</url>
-          <line>49</line>
+          <line>66</line>
           <properties documentPath="C:\Sviluppo\Ace68\KanDDDinsky_2025\src\BrewUp.Purchases.Domain\Entities\Order.cs" containingFunctionPresentation="Method 'Complete'">
             <startOffsets>
-              <option value="1297" />
+              <option value="1755" />
             </startOffsets>
             <endOffsets>
-              <option value="1334" />
+              <option value="1792" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

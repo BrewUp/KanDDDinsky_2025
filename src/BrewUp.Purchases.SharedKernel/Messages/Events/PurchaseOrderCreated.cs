@@ -7,11 +7,11 @@ namespace BrewUp.Purchases.SharedKernel.Messages.Events;
 public sealed class PurchaseOrderCreated(
 	PurchaseOrderId aggregateId,
 	SupplierId supplierId,
-	DateTime date,
+	OrderCreateDate date,
 	IEnumerable<OrderLine> lines)
 	: DomainEvent(aggregateId)
 {
 	public SupplierId SupplierId { get; } = supplierId;
-	public DateTime Date { get; } = date;
+	public OrderCreateDate Date { get; } = date;
 	public IEnumerable<OrderLine> Lines { get; } = lines;
 }

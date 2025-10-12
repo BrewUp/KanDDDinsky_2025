@@ -10,18 +10,18 @@ using Muflone.SpecificationTests;
 
 namespace Brewup.Purchases.Domain.Tests.Entities;
 
-public class OrderUpdatePurchaseOrderStatusToCompleteChangeStatus : CommandSpecification<ChangePurchaseOrderStatusToComplete>
+public class OrderUpdatePurchaseOrderStatusToCompleteChangeStatus : CommandSpecification<ReceivePurchaseOrderFromSupplier>
 {
 	private readonly PurchaseOrderId _purchaseOrderId;
 	private readonly SupplierId _supplierId;
-	private readonly DateTime _date;
+	private readonly OrderCreateDate _date;
 	private readonly IEnumerable<OrderLine> _lines;
 
 	public OrderUpdatePurchaseOrderStatusToCompleteChangeStatus()
 	{
 		_purchaseOrderId = new PurchaseOrderId(Guid.NewGuid().ToString());
 		_supplierId = new SupplierId(Guid.NewGuid().ToString());
-		_date = DateTime.Today;
+		_date = new OrderCreateDate(DateTime.Today);
 
 		_lines = [];
 		_lines = _lines.Concat(new List<OrderLine>
@@ -48,14 +48,14 @@ public class OrderUpdatePurchaseOrderStatusToCompleteChangeStatus : CommandSpeci
 		yield return new PurchaseOrderCreated(_purchaseOrderId, _supplierId, _date, _lines);
 	}
 
-	protected override ChangePurchaseOrderStatusToComplete When()
+	protected override ReceivePurchaseOrderFromSupplier When()
 	{
-		return new ChangePurchaseOrderStatusToComplete(_purchaseOrderId);
+		return new ReceivePurchaseOrderFromSupplier(_purchaseOrderId);
 	}
 
-	protected override ICommandHandlerAsync<ChangePurchaseOrderStatusToComplete> OnHandler()
+	protected override ICommandHandlerAsync<ReceivePurchaseOrderFromSupplier> OnHandler()
 	{
-		return new ChangePurchaseOrderStatusToCompleteHandlerAsync(Repository, new NullLoggerFactory());
+		return new ReceivePurchaseOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
 	}
 
 	protected override IEnumerable<DomainEvent> Expect()

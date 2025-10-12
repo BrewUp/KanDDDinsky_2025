@@ -15,7 +15,7 @@ public class OrderCreatePurchaseOrderSuccessful : CommandSpecification<CreatePur
 	private readonly PurchaseOrderId _purchaseOrderId;
 	private readonly SupplierId _supplierId;
 
-	private readonly DateTime _date;
+	private readonly OrderCreateDate _date;
 
 	private readonly IEnumerable<OrderLine> _lines;
 
@@ -23,7 +23,7 @@ public class OrderCreatePurchaseOrderSuccessful : CommandSpecification<CreatePur
 	{
 		_purchaseOrderId = new PurchaseOrderId(Guid.NewGuid().ToString());
 		_supplierId = new SupplierId(Guid.NewGuid().ToString());
-		_date = DateTime.Today;
+		_date = new OrderCreateDate(DateTime.Today);
 
 		_lines = [];
 		_lines = _lines.Concat(new List<OrderLine>

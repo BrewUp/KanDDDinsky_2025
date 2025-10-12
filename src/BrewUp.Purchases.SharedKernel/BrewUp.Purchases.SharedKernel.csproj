@@ -8,11 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Messages\Commands\" />
-      <Folder Include="Messages\Events\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="Muflone" Version="8.5.0" />
     </ItemGroup>
 
