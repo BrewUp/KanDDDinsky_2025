@@ -7,7 +7,6 @@ using Microsoft.Extensions.Logging.Abstractions;
 using Muflone.Messages.Commands;
 using Muflone.Messages.Events;
 using Muflone.SpecificationTests;
-using PurchaseOrderStatusChangedToComplete = BrewUp.Purchases.SharedKernel.Messages.Commands.PurchaseOrderStatusChangedToComplete;
 
 namespace Brewup.Purchases.Domain.Tests.Entities;
 

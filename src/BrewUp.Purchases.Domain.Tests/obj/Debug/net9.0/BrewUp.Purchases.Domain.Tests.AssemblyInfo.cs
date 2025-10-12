@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrewUp.Purchases.Domain.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bf6481118367804e9f386e2141feef7f21312fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51c8ebed24a99b7316a86780983830945a579d00")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrewUp.Purchases.Domain.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrewUp.Purchases.Domain.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
