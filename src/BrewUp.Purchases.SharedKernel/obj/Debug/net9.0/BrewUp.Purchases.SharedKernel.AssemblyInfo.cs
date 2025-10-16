@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrewUp.Purchases.SharedKernel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc9d6e92b91724c4e63ffae4b04fe3c1f54b87e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ac82f318fb1882e24eb7b911232428370de10e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrewUp.Purchases.SharedKernel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrewUp.Purchases.SharedKernel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
