@@ -1,7 +1,9 @@
+using Brewup.Purchases.Domain.CommandHandlers;
 using BrewUp.Purchases.SharedKernel.CustomTypes;
 using BrewUp.Purchases.SharedKernel.Dtos;
 using BrewUp.Purchases.SharedKernel.Messages.Commands;
 using BrewUp.Purchases.SharedKernel.Messages.Events;
+using Microsoft.Extensions.Logging.Abstractions;
 using Muflone.Messages.Commands;
 using Muflone.Messages.Events;
 using Muflone.SpecificationTests;
@@ -58,13 +60,11 @@ public sealed class BeerLoadedInStockSuccessful : CommandSpecification<LoadBeerI
     protected override LoadBeerInStock When() => 
         new (_purchaseOrderId, _lines);
 
-    protected override ICommandHandlerAsync<LoadBeerInStock> OnHandler()
-    {
-        throw new NotImplementedException();
-    }
+    protected override ICommandHandlerAsync<LoadBeerInStock> OnHandler() =>
+        new LoadBeerInStockHandlerAsync(Repository, new NullLoggerFactory());
 
     protected override IEnumerable<DomainEvent> Expect()
     {
-        throw new NotImplementedException();
+        yield return new BeerLoadedInStock(_purchaseOrderId, _lines);
     }
 }

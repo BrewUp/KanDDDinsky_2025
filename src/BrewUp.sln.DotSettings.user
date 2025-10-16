@@ -7,5 +7,6 @@
     &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.OrderUpdatePurchaseOrderStatusToCompleteChangeStatus&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.PurchaseOrderSentToSupplierSuccessful&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::657343B8-0BD5-42C6-AA33-2CC5E8CF58B7::net9.0::Brewup.Purchases.Domain.Tests.Entities.BeerLoadedInStockSuccessful&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

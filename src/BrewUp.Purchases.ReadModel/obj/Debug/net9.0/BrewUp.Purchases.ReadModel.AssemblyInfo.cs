@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrewUp.Purchases.ReadModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30d06d9aeab57862dbaa630ffe98f7c6ad800108")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb0b6a0b57ac17ded5694d0e5169e84c357ea3af")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrewUp.Purchases.ReadModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrewUp.Purchases.ReadModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

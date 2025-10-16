@@ -48,15 +48,11 @@ public class OrderUpdatePurchaseOrderStatusToCompleteChangeStatus : CommandSpeci
 		yield return new PurchaseOrderCreated(_purchaseOrderId, _supplierId, _date, _lines);
 	}
 
-	protected override ReceivePurchaseOrderFromSupplier When()
-	{
-		return new ReceivePurchaseOrderFromSupplier(_purchaseOrderId);
-	}
+	protected override ReceivePurchaseOrderFromSupplier When() =>
+		new (_purchaseOrderId);
 
-	protected override ICommandHandlerAsync<ReceivePurchaseOrderFromSupplier> OnHandler()
-	{
-		return new ReceivePurchaseOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
-	}
+	protected override ICommandHandlerAsync<ReceivePurchaseOrderFromSupplier> OnHandler() =>
+		new ReceivePurchaseOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
 
 	protected override IEnumerable<DomainEvent> Expect()
 	{

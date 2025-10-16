@@ -77,4 +77,9 @@ public class Order : AggregateRoot
 	{
 		RaiseEvent(new BeerLoadedInStock((PurchaseOrderId)Id, _lines.ToDtos()));
 	}
+
+	private void Apply(BeerLoadedInStock @event)
+	{
+		_status = Status.Loaded;
+	}
 }

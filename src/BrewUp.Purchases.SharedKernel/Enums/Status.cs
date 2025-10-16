@@ -6,8 +6,9 @@ public class Status: Enumeration
 	public static Status Sent = new Status(1, nameof(Sent).ToLowerInvariant());
 	public static Status Complete = new Status(2, nameof(Complete).ToLowerInvariant());
 	public static Status Cancelled = new Status(3, nameof(Cancelled).ToLowerInvariant());
+	public static Status Loaded = new Status(4, nameof(Cancelled).ToLowerInvariant());
 
-	public static IEnumerable<Status> List() => new[] { Sent, Complete, Cancelled};
+	public static IEnumerable<Status> List() => new[] { Sent, Complete, Cancelled, Loaded };
 
 	public Status(int id, string name)
 		: base(id, name)

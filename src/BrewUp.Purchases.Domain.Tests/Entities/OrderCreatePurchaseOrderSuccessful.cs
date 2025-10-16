@@ -50,15 +50,11 @@ public class OrderCreatePurchaseOrderSuccessful : CommandSpecification<CreatePur
 		yield break;
 	}
 
-	protected override CreatePurchaseOrder When()
-	{
-		return new CreatePurchaseOrder(_purchaseOrderId, _supplierId, _date, _lines);
-	}
+	protected override CreatePurchaseOrder When() =>
+		new (_purchaseOrderId, _supplierId, _date, _lines);
 
-	protected override ICommandHandlerAsync<CreatePurchaseOrder> OnHandler()
-	{
-		return new CreatePurchaseOrderHandlerAsync(Repository, new NullLoggerFactory());
-	}
+	protected override ICommandHandlerAsync<CreatePurchaseOrder> OnHandler() =>
+		new CreatePurchaseOrderHandlerAsync(Repository, new NullLoggerFactory());
 
 	protected override IEnumerable<DomainEvent> Expect()
 	{

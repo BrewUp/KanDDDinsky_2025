@@ -49,15 +49,11 @@ public class OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing 
 		yield return new PurchaseOrderStatusChangedToComplete(_purchaseOrderId, _lines);
 	}
 
-	protected override ReceivePurchaseOrderFromSupplier When()
-	{
-		return new ReceivePurchaseOrderFromSupplier(_purchaseOrderId);
-	}
+	protected override ReceivePurchaseOrderFromSupplier When() =>
+		new (_purchaseOrderId);
 
-	protected override ICommandHandlerAsync<ReceivePurchaseOrderFromSupplier> OnHandler()
-	{
-		return new ReceivePurchaseOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
-	}
+	protected override ICommandHandlerAsync<ReceivePurchaseOrderFromSupplier> OnHandler() =>
+		new ReceivePurchaseOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
 
 	protected override IEnumerable<DomainEvent> Expect()
 	{

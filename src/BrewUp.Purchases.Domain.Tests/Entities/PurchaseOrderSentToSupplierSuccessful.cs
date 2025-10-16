@@ -55,10 +55,8 @@ public sealed class PurchaseOrderSentToSupplierSuccessful : CommandSpecification
     protected override SendPurchaseOrderToSupplier When()
         => new (_purchaseOrderId, _dispatchDate);
 
-    protected override ICommandHandlerAsync<SendPurchaseOrderToSupplier> OnHandler()
-    {
-        return new SendPurchaseOrderToSupplierHandlerAsync(Repository, new NullLoggerFactory());
-    }
+    protected override ICommandHandlerAsync<SendPurchaseOrderToSupplier> OnHandler() =>
+        new SendPurchaseOrderToSupplierHandlerAsync(Repository, new NullLoggerFactory());
 
     protected override IEnumerable<DomainEvent> Expect()
     {
