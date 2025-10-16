@@ -226,6 +226,7 @@ After completing these exercises:
 
 - **Domain-Driven Design** by Eric Evans
 - **Specification by Example** by Gojko Adzic
+- **Domain-Driven Refactoring** by Alessandro Colla & Alberto Acerbis
 - **Event Sourcing fundamentals** and CQRS patterns
 - **Muflone Framework** documentation for .NET Event Sourcing
 
