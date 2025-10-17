@@ -10,7 +10,7 @@ using Muflone.SpecificationTests;
 
 namespace Brewup.Purchases.Domain.Tests.Entities;
 
-public class OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing : CommandSpecification<ReceivePurchaseOrderFromSupplier>
+public class OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing : CommandSpecification<AcknowledgeReceivingOrderFromSupplier>
 {
 	private readonly PurchaseOrderId _purchaseOrderId;
 	private readonly SupplierId _supplierId;
@@ -49,11 +49,11 @@ public class OrderUpdatePurchaseOrderStatusToCompleteAlreadyCompleteDoesNothing 
 		yield return new PurchaseOrderStatusChangedToComplete(_purchaseOrderId, _lines);
 	}
 
-	protected override ReceivePurchaseOrderFromSupplier When() =>
+	protected override AcknowledgeReceivingOrderFromSupplier When() =>
 		new (_purchaseOrderId);
 
-	protected override ICommandHandlerAsync<ReceivePurchaseOrderFromSupplier> OnHandler() =>
-		new ReceivePurchaseOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
+	protected override ICommandHandlerAsync<AcknowledgeReceivingOrderFromSupplier> OnHandler() =>
+		new AcknowledgeReceivingOrderFromSupplierHandlerAsync(Repository, new NullLoggerFactory());
 
 	protected override IEnumerable<DomainEvent> Expect()
 	{
