@@ -1,6 +1,6 @@
 using Muflone.Core;
 
-namespace BrewUp.Purchase.SharedKernel.ValueObjects;
+namespace BrewUp.Purchase.SharedKernel.CustomTypes;
 
 public class BeerId(Guid value) : DomainId(value.ToString())
 {

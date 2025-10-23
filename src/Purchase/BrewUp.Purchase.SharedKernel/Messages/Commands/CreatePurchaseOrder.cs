@@ -1,7 +1,7 @@
-using BrewUp.Purchase.SharedKernel.ValueObjects;
+using BrewUp.Purchase.SharedKernel.CustomTypes;
 using Muflone.Messages.Commands;
 
-namespace BrewUp.Purchase.Domain.Commands;
+namespace BrewUp.Purchase.SharedKernel.Messages.Commands;
 
 public class CreatePurchaseOrder(PurchaseOrderId purchaseOrderId, BeerId beerId, BeerName beerName, Quantity quantity) : Command(purchaseOrderId)
 {

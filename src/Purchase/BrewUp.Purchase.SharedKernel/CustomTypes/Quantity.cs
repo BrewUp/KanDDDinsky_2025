@@ -1,4 +1,4 @@
-namespace BrewUp.Purchase.SharedKernel.ValueObjects;
+namespace BrewUp.Purchase.SharedKernel.CustomTypes;
 
 public class Quantity(int value)
 {

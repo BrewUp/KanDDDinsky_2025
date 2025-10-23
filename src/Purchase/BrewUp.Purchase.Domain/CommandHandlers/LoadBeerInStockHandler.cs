@@ -1,4 +1,4 @@
-using BrewUp.Purchase.Domain.Commands;
+using BrewUp.Purchase.SharedKernel.Messages.Commands;
 using BrewUp.Purchase.Domain.Aggregates;
 
 namespace BrewUp.Purchase.Domain.CommandHandlers;

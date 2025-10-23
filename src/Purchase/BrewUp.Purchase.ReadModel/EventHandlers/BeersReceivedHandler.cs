@@ -1,4 +1,4 @@
-using BrewUp.Purchase.Domain.Events;
+using BrewUp.Purchase.SharedKernel.Messages.Events;
 using Muflone.Messages.Events;
 
 namespace BrewUp.Purchase.ReadModel.EventHandlers;

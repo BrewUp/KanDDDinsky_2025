@@ -1,7 +1,7 @@
-using BrewUp.Purchase.SharedKernel.ValueObjects;
+using BrewUp.Purchase.SharedKernel.CustomTypes;
 using Muflone.Messages.Events;
 
-namespace BrewUp.Purchase.Domain.Events;
+namespace BrewUp.Purchase.SharedKernel.Messages.Events;
 
 public class BeerLoadedInStock(BeerId beerId, BeerName beerName, Quantity quantity) : DomainEvent(beerId)
 {

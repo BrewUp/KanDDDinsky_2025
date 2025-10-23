@@ -1,5 +1,5 @@
-using BrewUp.Purchase.SharedKernel.ValueObjects;
-using BrewUp.Purchase.Domain.Events;
+using BrewUp.Purchase.SharedKernel.CustomTypes;
+using BrewUp.Purchase.SharedKernel.Messages.Events;
 using Muflone.Core;
 
 namespace BrewUp.Purchase.Domain.Aggregates;
