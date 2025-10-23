@@ -8,10 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Muflone" Version="8.5.0" />
+    <PackageReference Include="Muflone.Eventstore.gRPC" Version="8.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BrewUp.Purchase.Domain\BrewUp.Purchase.Domain.csproj" />
+    <ProjectReference Include="..\BrewUp.Purchase.ReadModel\BrewUp.Purchase.ReadModel.csproj" />
     <ProjectReference Include="..\BrewUp.Purchase.SharedKernel\BrewUp.Purchase.SharedKernel.csproj" />
   </ItemGroup>
 
