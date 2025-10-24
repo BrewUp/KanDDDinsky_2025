@@ -4,7 +4,13 @@ Create a C# API infrastructure for the bounded context "Purchase" from the Miro 
 
 Time 
 Plan mode: 06:11 - 06:17
-Edit mode: 06:19 - 05:32
+Edit mode: 06:19 - 06:32
 
 
+Step 2
+attach miro image
+Create all the commands, events, command handlers, event handlers for the bounded context Purchase from the Miro diagram attached. Write architecture and unit tests where necessary.
 
+Time 
+Plan mode: 06:11 -
+Edit mode: 06:19 -
