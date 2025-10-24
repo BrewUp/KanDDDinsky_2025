@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Muflone" Version="8.4.0" />
+    <PackageReference Include="Muflone.Eventstore.gRPC" Version="8.4.0" />
+    <PackageReference Include="MongoDB.Driver" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Muflone.Transport.RabbitMQ" Version="8.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrewUp.Purchase.SharedKernel\BrewUp.Purchase.SharedKernel.csproj" />
+    <ProjectReference Include="..\BrewUp.Purchase.Domain\BrewUp.Purchase.Domain.csproj" />
+    <ProjectReference Include="..\BrewUp.Purchase.ReadModel\BrewUp.Purchase.ReadModel.csproj" />
+  </ItemGroup>
+
+</Project>

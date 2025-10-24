@@ -1,53 +1,81 @@
+using BrewUp.Messages.Commands;
 using BrewUp.Purchase.Facade.BindingModels.v1;
 using BrewUp.Purchase.Facade.BindingModels.v1.Input;
+using BrewUp.Purchase.Infrastructure.MongoDB;
+using BrewUp.Purchase.SharedKernel.DomainIds;
 using Microsoft.Extensions.Logging;
+using Muflone.CustomTypes;
+using Muflone.Persistence;
 
 namespace BrewUp.Purchase.Facade;
 
-public sealed class PurchaseFacade : IPurchaseFacade
+public sealed class PurchaseFacade(
+    IServiceBus serviceBus,
+    IPurchaseOrderQueries purchaseOrderQueries,
+    ILoggerFactory loggerFactory) : IPurchaseFacade
 {
-    private readonly ILogger<PurchaseFacade> _logger;
-    private readonly Dictionary<Guid, PurchaseOrder> _inMemoryStore = new();
+    private readonly ILogger<PurchaseFacade> _logger = loggerFactory.CreateLogger<PurchaseFacade>();
 
-    public PurchaseFacade(ILoggerFactory loggerFactory)
-    {
-        _logger = loggerFactory.CreateLogger<PurchaseFacade>();
-    }
-
-    public Task<PurchaseOrder> CreatePurchaseOrderAsync(CreatePurchaseOrderRequest request, CancellationToken cancellationToken = default)
+    public async Task<PurchaseOrder> CreatePurchaseOrderAsync(CreatePurchaseOrderRequest request, CancellationToken cancellationToken = default)
     {
         _logger.LogInformation("Creating purchase order with code: {OrderCode}", request.OrderCode);
 
-        var purchaseOrder = new PurchaseOrder
+        var orderId = new PurchaseOrderId(Guid.NewGuid());
+        var account = new Account("system@brewup.local", "System"); // TODO: Get from authenticated user
+
+        var command = new CreatePurchaseOrder(orderId, request.OrderCode, account);
+        await serviceBus.SendAsync(command, cancellationToken);
+
+        _logger.LogInformation("Purchase order created successfully: {OrderId}", orderId);
+
+        // Return the created order
+        // Note: In a real scenario with event sourcing, you might need to wait for the read model to be updated
+        // or use eventual consistency patterns
+        return new PurchaseOrder
         {
-            Id = Guid.NewGuid(),
+            Id = Guid.Parse(orderId.Value),
             OrderCode = request.OrderCode
         };
-
-        _inMemoryStore[purchaseOrder.Id] = purchaseOrder;
-
-        return Task.FromResult(purchaseOrder);
     }
 
-    public Task AcknowledgeReceivingAsync(AcknowledgeReceivingRequest request, CancellationToken cancellationToken = default)
+    public async Task AcknowledgeReceivingAsync(AcknowledgeReceivingRequest request, CancellationToken cancellationToken = default)
     {
-        _logger.LogInformation("Acknowledging receiving for order: {OrderId}", request.OrderId);
+        _logger.LogInformation("Acknowledging receiving for order: {OrderId}, Quantity: {ReceivedQuantity}",
+            request.OrderId, request.ReceivedQuantity);
 
-        if (!_inMemoryStore.ContainsKey(request.OrderId))
+        var existingOrder = await purchaseOrderQueries.GetByIdAsync(request.OrderId, cancellationToken);
+        if (existingOrder == null)
         {
-            _logger.LogWarning("Purchase order not found: {OrderId}", request.OrderId);
             throw new KeyNotFoundException($"Purchase order with ID {request.OrderId} not found");
         }
 
-        return Task.CompletedTask;
+        var orderId = new PurchaseOrderId(request.OrderId);
+        var account = new Account("system@brewup.local", "System"); // TODO: Get from authenticated user
+
+        var command = new AcknowledgeReceivingOrder(orderId, request.ReceivedQuantity, account);
+        await serviceBus.SendAsync(command, cancellationToken);
+
+        _logger.LogInformation("Purchase order receiving acknowledged successfully: {OrderId}", orderId);
     }
 
-    public Task<PurchaseOrder?> GetPurchaseOrderByIdAsync(Guid orderId, CancellationToken cancellationToken = default)
+    public async Task<PurchaseOrder?> GetPurchaseOrderByIdAsync(Guid orderId, CancellationToken cancellationToken = default)
     {
         _logger.LogInformation("Retrieving purchase order: {OrderId}", orderId);
 
-        _inMemoryStore.TryGetValue(orderId, out var purchaseOrder);
+        var dto = await purchaseOrderQueries.GetByIdAsync(orderId, cancellationToken);
 
-        return Task.FromResult(purchaseOrder);
+        if (dto == null)
+        {
+            _logger.LogWarning("Purchase order not found: {OrderId}", orderId);
+            return null;
+        }
+
+        return new PurchaseOrder
+        {
+            Id = dto.Id,
+            OrderCode = dto.OrderCode,
+            Status = dto.Status.ToString(),
+            ReceivedQuantity = dto.ReceivedQuantity
+        };
     }
 }

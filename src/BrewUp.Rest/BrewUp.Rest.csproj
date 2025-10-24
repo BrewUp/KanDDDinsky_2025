@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BrewUp.Purchase.Facade\BrewUp.Purchase.Facade.csproj" />
+    <ProjectReference Include="..\BrewUp.Purchase.Infrastructure\BrewUp.Purchase.Infrastructure.csproj" />
     <ProjectReference Include="..\BrewUp.PurchaseMediator\BrewUp.PurchaseMediator.csproj" />
   </ItemGroup>
 

@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +13,8 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageReference Include="xunit" Version="2.9.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
-    <PackageReference Include="NetArchTest.Rules" Version="1.3.2" />
+    <PackageReference Include="FluentAssertions" Version="7.0.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,10 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BrewUp.Purchase.Facade\BrewUp.Purchase.Facade.csproj" />
+    <ProjectReference Include="..\BrewUp.Messages\BrewUp.Messages.csproj" />
     <ProjectReference Include="..\BrewUp.Purchase.Domain\BrewUp.Purchase.Domain.csproj" />
-    <ProjectReference Include="..\BrewUp.Purchase.ReadModel\BrewUp.Purchase.ReadModel.csproj" />
-    <ProjectReference Include="..\BrewUp.Purchase.Infrastructure\BrewUp.Purchase.Infrastructure.csproj" />
     <ProjectReference Include="..\BrewUp.Purchase.SharedKernel\BrewUp.Purchase.SharedKernel.csproj" />
   </ItemGroup>
 
