@@ -1,0 +1,10 @@
+Step 1
+attach miro image
+Create a C# API infrastructure for the bounded context "Purchase" from the Miro diagram attached. Do not implement Commands, Events and the code related to the domain, just stick to the infrastructure exposing the API calls. Write architecture and unit tests where necessary.
+
+Time 
+Plan mode: 06:11 - 06:17
+Edit mode: 06:19 - 05:32
+
+
+
