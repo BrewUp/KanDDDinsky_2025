@@ -2,19 +2,13 @@ Step 1
 attach miro image
 Create a C# API infrastructure for the bounded context "Purchase" from the Miro diagram attached. Do not implement Commands, Events and the code related to the domain, just stick to the infrastructure exposing the API calls. Write architecture and unit tests where necessary.
 
-Time 
-Plan mode: 06:11 - 06:17
-Edit mode: 06:19 - 06:32
-
-
 Step 2
+attach miro image
+Create all the specification tests for the domain and the unit tests for the infrastructure of the bounded context Purchase from the Miro diagram attached. Do not write the code.
+
+Step 3
 attach miro image
 Create all the commands, events, command handlers, event handlers for the bounded context Purchase from the Miro diagram attached. Write architecture and unit tests where necessary.
 
-Time 
-Plan mode: 06:43 - 6:51
-Edit mode: 06:52 - 7:11
-Fixing: 7:12 - 7:52
-
-Step3
+Step 4
 Create Docker compose necessary to run the Purchase bounded context with its dependencies (e.g., database, message broker, etc.). Ensure that the services can communicate with each other as required.
